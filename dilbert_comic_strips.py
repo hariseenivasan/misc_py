@@ -21,7 +21,7 @@ def strip(y = datetime.datetime.now().year, m = datetime.datetime.now().month, d
 		return None
 
 # 4-17-89 == first Dilbert
-def strips(begin = datetime.date(1989, 4, 17), end = datetime.datetime.now().date(), save_loc = '', delay = 0.75):
+def strips(begin = datetime.date(1989, 4, 17), end = datetime.datetime.now().date(), save_loc = '', delay = 0.12):
 	try:
 		if save_loc != '' and not(os.path.isdir(save_loc)):
 			os.makedirs(save_loc)

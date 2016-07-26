@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#Reference: https://community.spiceworks.com/scripts/show/982-download-all-dilbert-comics (doesn't work)
 import sys, datetime, os, time
 
 # for backwards compatibility
